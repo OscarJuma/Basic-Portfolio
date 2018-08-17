@@ -25,6 +25,10 @@ h2 {
   color:#4aaaa4;
   text-align: left;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: outset;
+  border-left-style: none;
 }
   
 h6 {
@@ -50,37 +54,39 @@ h6 {
 
 .box-2 {
 position: relative;
-width: 300px;
-height: 300px;
-margin: 0px 0px 0px 0px;
-border: 0px 0px 0px 0px;
-padding: 0px 0px 0px 0px;
 }
 
 .box-3 {
   position: relative;
-  width: auto;
+  max-width: max;
   bottom: 0px;
-  float: right;
-  margin: 0px 0px 0px 0px;
-  border: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
+  float: left;
 }
 
 .content1 {
   width: auto;
   float: right;
-  height: 200px;
-  margin-left: 0px;
-}
-
-.content2 {
-  width: auto;
-  text-align: center;
 }
 
 #p354,
 #p355,
-#p356{
+#p356,
+#p357, {
   float: left;
+  padding: 15px;
+}
+
+a {
+  width: 200px;
+}
+a:hover {
+  background-color: grey;
+}
+ 
+a:focus {
+  background-color: burlywood;
+}
+ 
+a:active {
+  background-color: orchid;
 }
