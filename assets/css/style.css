@@ -2,7 +2,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   border-color: #dddddd;
   font-size: 18px;
-  line-height: 150%;
   color: #777777;
   background: #ffffff;
 }
@@ -54,12 +53,22 @@ h6 {
 }
 
 .box-2 {
-position: relative;
+float: left;
+width: 100%;
+text-align: left;
+display: block;
 }
 
+.picture {
+  float: left;
+}
+.clearfix {
+  overflow: auto;
+  clear: both;
+}
 .box-3 {
   position: relative;
-  max-width: max;
+  width: 100%;
   bottom: 0px;
   float: left;
 }
@@ -67,6 +76,7 @@ position: relative;
 .content1 {
   width: auto;
   float: right;
+  margin-right: 135px;
 }
 
 #p354,
@@ -77,6 +87,17 @@ position: relative;
   padding: 15px;
 }
 
+.topnav {
+  padding-left: 25px;
+  float: right;
+  margin-top: -70px;
+}
+
+.topnav a {
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
 a {
   width: 200px;
 }
