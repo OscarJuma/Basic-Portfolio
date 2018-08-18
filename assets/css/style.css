@@ -33,12 +33,16 @@ h2 {
 }
   
 h6 {
-  padding: 20px 0px 0px 0px;
+  padding: 5px 0px 0px 0px;
   color: #eee;
   border-color: #4aaaa4;
   text-align: center;
   background: #666666;
-  height: 25px;
+  height: 30px;
+  border-top-style: outset;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
 }
 
 .box-set {
