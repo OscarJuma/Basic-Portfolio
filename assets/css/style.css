@@ -90,9 +90,10 @@ display: block;
 #p354,
 #p355,
 #p356,
-#p357, {
+#p357,
+#p358 {
   float: left;
-  padding: 15px;
+  padding: 0px 0px 35px 35px;
 }
 
 .topnav {
@@ -128,4 +129,9 @@ a:active {
 input {
   width: 600px;
   height: 50px;
+}
+
+.submit {
+  width: 105px;
+  height: 20px;
 }
