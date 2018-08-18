@@ -64,14 +64,6 @@ text-align: left;
 display: block;
 }
 
-.picture {
-  float: left;
-  padding: 0pt 10pt 0pt 0pt;
-}
-.clearfix {
-  overflow: auto;
-  clear: both;
-}
 .box-3 {
   position: relative;
   width: 100%;
@@ -83,6 +75,16 @@ display: block;
   width: auto;
   float: right;
   margin-right: 135px;
+}
+
+
+.picture {
+  float: left;
+  padding: 0pt 10pt 0pt 0pt;
+}
+.clearfix {
+  overflow: auto;
+  clear: both;
 }
 
 #p354,
