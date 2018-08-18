@@ -31,7 +31,7 @@ h2 {
   border-bottom-style: outset;
   border-left-style: none;
 }
-  
+
 h6 {
   padding: 5px 0px 0px 0px;
   color: #eee;
@@ -66,6 +66,7 @@ display: block;
 
 .picture {
   float: left;
+  padding: 0pt 10pt 0pt 0pt;
 }
 .clearfix {
   overflow: auto;
